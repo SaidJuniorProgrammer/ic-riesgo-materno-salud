@@ -8,3 +8,4 @@ venv/
 .playwright-mcp/
 .codegraph/
 
+scratch/
