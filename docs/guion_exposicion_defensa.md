@@ -255,3 +255,4 @@
 **Profesor:** *"¿Cómo protege su prototipo interactivo a una paciente cuando el modelo no está seguro de su predicción?"*  
 > **Respuesta sugerida de Said:**  
 > *"Profesor, esa es precisamente la función del componente de incertidumbre del Eje C en nuestra aplicación. Un modelo tradicional siempre devuelve una clase con la probabilidad más alta, aunque sea por una diferencia mínima (por ejemplo 37% vs 35%). En nuestro prototipo, implementamos la **Entropía Normalizada de Shannon**. Si la confianza de la clase ganadora es menor al 65%, o si la entropía supera el 55%, la app despliega automáticamente una alerta amarilla visible indicando que la gestante se encuentra en una **frontera de decisión difusa**. Además, incluimos una regla de riesgo residual: si el modelo sugiere 'Riesgo Bajo' pero la probabilidad de 'Alto Riesgo' supera el 25%, se emite una advertencia preventiva obligando a una reevaluación manual por personal médico."*
+
